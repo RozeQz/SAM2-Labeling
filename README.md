@@ -6,10 +6,12 @@
 
 - В `images` лежат оригиналы картинок.
 - В `labels` лежит разметка этих картинок в формате `class_id x_center y_center box_width box_height`.
+- В `new_labels` лежит улучшенная разметка картинок в формате `class_id x_center y_center box_width box_height`.
 - В `segmented` лежат автосегментированные SAM2 картинки.
 - В `segmented_with_bboxes` лежат сегментированные картинки с использованием промпта в виде bbox'ов для SAM2.
 - В `segmented_with_points` лежат сегментированные картинки с использованием промпта в виде центров bbox'ов для SAM2.
 - В `segmented_with_both` лежат сегментированные картинки с использованием промпта в виде bbox'ов и их центров для SAM2.
+- В `new_boxes` лежат картинки с новыми размечеными bboxes.
 
 ## Настройка окружения
 
